@@ -8,14 +8,22 @@ const TAB_DATA = [
         title: "Skills",
         id: 'skills',
         content: (
-            <ul className='list-desc pl-2'>
+            <ul className='grid grid-cols-3 gap-2'>
+                <li>Bootstrap</li>
+                <li>CSS</li>
+                <li>Django</li>
+                <li>Express</li>
+                <li>HTML</li>
                 <li>JavaScript</li>
-                <li>Python</li>
-                <li>React</li>
+                <li>MongoDB</li>
                 <li>Next.js</li>
                 <li>Node.js</li>
-                <li>Express</li>
                 <li>PostgreSQL</li>
+                <li>Postman</li>
+                <li>Python</li>
+                <li>React</li>
+                <li>SQL</li>
+                <li>Tailwind</li>
             </ul>
         )
     },
