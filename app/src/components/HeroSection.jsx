@@ -32,7 +32,7 @@ const HeroSection = () => {
                             2000,
                             'a Day Trader.',
                             2000,
-                            'a Warriors Fan',
+                            'a Warriors Fan.',
                             2000
                         ]}
                         wrapper="span"
