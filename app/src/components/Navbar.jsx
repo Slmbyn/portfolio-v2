@@ -4,6 +4,7 @@ import Link from "next/link"
 import NavLink from './NavLink'
 import MenuOverlay from './MenuOverlay'
 import { Bars3Icon, XmarkIcon } from '@heroicons/react/24/solid'
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const navLinks = [
     {
@@ -15,9 +16,13 @@ const navLinks = [
         path: "#projects",
     },
     {
-        title: "Contact",
-        path: "#contact",
-    }
+        title: <FaGithub size={25} />,
+        path: 'https://github.com/Slmbyn',
+    },
+    {
+        title: <FaLinkedin size={25} />,
+        path: 'https://www.linkedin.com/in/selambeyene/',
+    },
 ]
 
 function Navbar() {
