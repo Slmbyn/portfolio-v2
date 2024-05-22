@@ -7,11 +7,15 @@ import {motion} from 'framer-motion'
 
 const HeroSection = () => {
   return (
-    <section className='lg:py-16'>
+    <motion.section 
+    // initial={{ opacity: 0, scale: 0.5}}
+    // animate={{ opacity: 1, scale: 1}}
+    // transition={{ duration: .5 }}
+        className='lg:py-16'>
         <div className='grid grid-cols-1 sm:grid-cols-12'>
 
             <motion.div 
-                initial={{ opacity: 0, scale: 0.5}}
+                initial={{ opacity: 0, scale: 0.6}}
                 animate={{ opacity: 1, scale: 1}}
                 transition={{ duration: .5 }}
                 className='col-span-8 place-self-center text-center sm:text-left justify-self-start'>
@@ -23,7 +27,7 @@ const HeroSection = () => {
                     <TypeAnimation
                         sequence={[
                             'Selam.',
-                            4000,
+                            3000,
                             'a Software Engineer.',
                             2000,
                             'a Day Trader.',
@@ -51,20 +55,25 @@ const HeroSection = () => {
                 </div>
             </motion.div>
 
-            <div className='col-span-4 place-self-center mt-4lg:mt-0'>
-                <div className='rounded-full bg-[#504f4f] w-[350px] h-[350px] lg:w-[400px] lg:h-[400px] relative'>
+            <motion.div 
+                initial={{ opacity: 0, scale: 0.3}}
+                animate={{ opacity: 1, scale: 1}}
+                transition={{ duration: 1.3 }}
+                className='col-span-4 place-self-center mt-4lg:mt-0'>
+                {/* <div className='rounded-full bg-[#504f4f] w-[350px] h-[350px] lg:w-[400px] lg:h-[400px] relative'> */}
+                <div className='rounded-full w-[350px] h-[350px] lg:w-[400px] lg:h-[400px] relative'>
                     <Image
                         src='/images/hero-image.png'
                         alt='hero image'
-                        className='absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2'
+                        className='absolute rounded-full transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2'
                         width={300}
                         height={300}
                     />
                 </div>
-            </div>
+            </motion.div>
 
         </div>
-    </section>
+    </motion.section>
   )
 }
 
