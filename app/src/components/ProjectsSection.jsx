@@ -46,7 +46,7 @@ const projectsData = [
       title: "TutorAi",
       description: "TutorAi empowers new programmers, especially those without a CS background, by using AI to provide personalized, digestible explanations on diverse topics, fostering an inclusive learning environment.",
       image: "/images/projects/site_under_construction.jpeg",
-      tag: ["All", "Web"],
+      tag: ["All", "Web", "Mobile"],
       gitUrl: "https://github.com/Slmbyn/TutorAi",
       previewUrl: "https://github.com/Slmbyn/TutorAi",
     }
