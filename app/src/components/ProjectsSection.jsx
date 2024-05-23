@@ -28,7 +28,7 @@ const projectsData = [
       title: "Fit-Forecast",
       description: 'Platform designed to enhance your well-being through personalized workout suggestions based on your local weather conditions.',
       image: "/images/projects/fitforecast.png",
-      tag: ["All", "Web"],
+      tag: ["All", "Web", "Mobile"],
       gitUrl: "https://github.com/Slmbyn/Fit-Forecast",
       previewUrl: "https://fitforecast-dc33e66f392f.herokuapp.com/",
     },
@@ -37,7 +37,7 @@ const projectsData = [
       title: "Snake",
       description: 'Snake, the timeless arcade game, is back! In snake, players control a snake with never ending hunger as it navigates through a field in search of food!',
       image: "/images/projects/snake.png",
-      tag: ["All", "Mobile"],
+      tag: ["All", "Web"],
       gitUrl: "https://github.com/Slmbyn/Snake",
       previewUrl: "https://snake-gilt-eta.vercel.app/",
     },
@@ -48,7 +48,7 @@ const projectsData = [
       image: "/images/projects/site_under_construction.jpeg",
       tag: ["All", "Web"],
       gitUrl: "https://github.com/Slmbyn/TutorAi",
-      previewUrl: "/",
+      previewUrl: "https://github.com/Slmbyn/TutorAi",
     }
   ];
   
@@ -72,7 +72,7 @@ const ProjectsSection = () => {
 
   return (
     <section>
-        <h2 className='text-white text-center text-4xl font-bold mt-4 mb-8 md:mb-12 md:text-6xl'> My Projects</h2>
+        <h2 className='text-white text-center text-4xl font-bold mt-4 mb-4 md:mb-8 md:text-6xl'> My Projects</h2>
 
         <div className='text-white flex flex-row justify-center items-center gap-2 py-6'>
             <ProjectTag onClick={handleTagChange} name='All' isSelected={tag === 'All'} />
