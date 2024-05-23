@@ -65,12 +65,7 @@ function AboutSection() {
             <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
                 <h2 className='text-4xl md:text-6xl font-bold text-white mb-4 text-center md:text-left'>About Me</h2>
                 <p className='text-base lg:text-lg'>
-                    I am a full stack web developer with a passion for creating
-                    interactive and responsive web applications. I have experience
-                    working with JavaScript, React, Redux, Node.js, Express, PostgreSQL,
-                    Sequelize, HTML, CSS, and Git. I am a quick learner and I am always
-                    looking to expand my knowledge and skill set. I am a team player and
-                    I am excited to work with others to create amazing applications.
+                My journey into software development has been unconventional. Starting with a finance degree, I found myself diving into day trading, where I picked up Python to help streamline some of my tasks. Unexpectedly, I fell in love with programming and completed a software engineering bootcamp. I love learning new skills and am all about making things easier, so it felt like the perfect fit. If you have an idea that you’d like to see come to life or are looking to add a member to your team I'd be happy to lend my blend of experience!
                 </p>
                 <div className='flex flex-row mt-8'>
                     <TabButton selectTab={() => handleTabChange("skills")} active={tab === 'skills'}>
