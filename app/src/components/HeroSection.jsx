@@ -41,7 +41,7 @@ const HeroSection = () => {
                     />
                 </h1>
                 <p className="text-[#ADB7BE] text-base sm:text-lg lg:text-xl mb-6">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem fuga cum aperiam iusto voluptatum doloremque quo. Corrupti, recusandae voluptatibus!
+                    "I have no special talents. I am only passionately curious."  <br/> - Albert Einstein
                 </p>
                 <div>
                     <a        
